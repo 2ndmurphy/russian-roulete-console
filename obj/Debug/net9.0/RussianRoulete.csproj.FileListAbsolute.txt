@@ -12,3 +12,4 @@ D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\refint\RussianRoulete.dll
 D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\RussianRoulete.pdb
 D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\RussianRoulete.genruntimeconfig.cache
 D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\ref\RussianRoulete.dll
+D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\RussianRoulete.sourcelink.json

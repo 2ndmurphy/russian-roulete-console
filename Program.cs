@@ -2,20 +2,22 @@
 
 class RussianRoulette
 {
-    static readonly string[] players = ["Player One", "Player Two"];
+    static readonly string[] Players = ["Player One", "Player Two"];
     static readonly Random random = new();
     static bool[]? cylinder;
     static int currentChamberIndex = 0;
+    static int bulletsCount = 1; // default 1 peluru
 
     static void Main()
     {
         Console.WriteLine("🎲 Welcome to Russian Roulette!");
-        Console.WriteLine("One live round in the cylinder. Take turns and see who gets unlucky...\n");
+        Console.WriteLine("One or more live rounds in the cylinder. Take turns and see who gets unlucky...\n");
 
         bool playing = true;
 
         while (playing)
         {
+            SetupGame(); // NEW: user pilih jumlah peluru
             StartGame();
 
             bool gameRunning = true;
@@ -63,6 +65,23 @@ class RussianRoulette
         Console.WriteLine("\n👋 Thanks for playing!");
     }
 
+    static void SetupGame()
+    {
+        Console.Write("💡 Enter number of bullets (1-5): ");
+        while (true)
+        {
+            string? input = Console.ReadLine();
+            if (int.TryParse(input, out int num) && num >= 1 && num <= 5)
+            {
+                bulletsCount = num;
+                double chanceOfGettingShot = (double)bulletsCount / 6.0 * 100;
+                Console.WriteLine($"🎯 Chance of getting shot per turn: {chanceOfGettingShot:0.0}%\n");
+                break;
+            }
+            Console.Write("❌ Invalid input. Enter number between 1 and 5: ");
+        }
+    }
+
     static void StartGame()
     {
         currentChamberIndex = 0;
@@ -70,7 +89,13 @@ class RussianRoulette
 
     static void ShuffleCylinder()
     {
-        cylinder = [true, false, false, false, false, false];
+        cylinder = new bool[6];
+
+        for (int i = 0; i < bulletsCount; i++)
+        {
+            cylinder[i] = true;
+        }
+
         ShuffleArray(cylinder);
     }
 
@@ -85,12 +110,12 @@ class RussianRoulette
 
     static string[] ShufflePlayerOrder()
     {
-        int startIndex = random.Next(players.Length);
-        string[] newOrder = new string[players.Length];
+        int startIndex = random.Next(Players.Length);
+        string[] newOrder = new string[Players.Length];
 
-        for (int i = 0; i < players.Length; i++)
+        for (int i = 0; i < Players.Length; i++)
         {
-            newOrder[i] = players[(startIndex + i) % players.Length];
+            newOrder[i] = Players[(startIndex + i) % Players.Length];
         }
 
         return newOrder;

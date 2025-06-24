@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RussianRoulete")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44e8334d6e64d89bdb33cd35ee9a3363813bafd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("RussianRoulete")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RussianRoulete")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

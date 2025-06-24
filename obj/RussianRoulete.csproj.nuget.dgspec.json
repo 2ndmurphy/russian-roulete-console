@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\C#\\RussianRoulete\\RussianRoulete.csproj": {}
+    "d:\\Programming\\C#\\RussianRoulete\\RussianRoulete.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\C#\\RussianRoulete\\RussianRoulete.csproj": {
+    "d:\\Programming\\C#\\RussianRoulete\\RussianRoulete.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\C#\\RussianRoulete\\RussianRoulete.csproj",
+        "projectUniqueName": "d:\\Programming\\C#\\RussianRoulete\\RussianRoulete.csproj",
         "projectName": "RussianRoulete",
-        "projectPath": "D:\\Programming\\C#\\RussianRoulete\\RussianRoulete.csproj",
+        "projectPath": "d:\\Programming\\C#\\RussianRoulete\\RussianRoulete.csproj",
         "packagesPath": "C:\\Users\\Hype GLK\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\C#\\RussianRoulete\\obj\\",
+        "outputPath": "d:\\Programming\\C#\\RussianRoulete\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,6 +1,4 @@
-﻿using System;
-
-class RussianRoulette
+﻿class RussianRoulette
 {
     static readonly string[] Players = ["Player One", "Player Two"];
     static readonly Random random = new();

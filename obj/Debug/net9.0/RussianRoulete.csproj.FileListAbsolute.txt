@@ -1,0 +1,14 @@
+D:\Programming\C#\RussianRoulete\bin\Debug\net9.0\RussianRoulete.exe
+D:\Programming\C#\RussianRoulete\bin\Debug\net9.0\RussianRoulete.deps.json
+D:\Programming\C#\RussianRoulete\bin\Debug\net9.0\RussianRoulete.runtimeconfig.json
+D:\Programming\C#\RussianRoulete\bin\Debug\net9.0\RussianRoulete.dll
+D:\Programming\C#\RussianRoulete\bin\Debug\net9.0\RussianRoulete.pdb
+D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\RussianRoulete.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\RussianRoulete.AssemblyInfoInputs.cache
+D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\RussianRoulete.AssemblyInfo.cs
+D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\RussianRoulete.csproj.CoreCompileInputs.cache
+D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\RussianRoulete.dll
+D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\refint\RussianRoulete.dll
+D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\RussianRoulete.pdb
+D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\RussianRoulete.genruntimeconfig.cache
+D:\Programming\C#\RussianRoulete\obj\Debug\net9.0\ref\RussianRoulete.dll
